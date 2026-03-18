@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     port: 3000,
     host: true,
-    allowedHosts: 'all',
+    allowedHosts: true,
     open: false,
     proxy: {
       '/api': {
